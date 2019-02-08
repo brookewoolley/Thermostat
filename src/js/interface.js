@@ -18,4 +18,17 @@ $( document ).ready(function() {
     $('#temperature').text(thermostat.getCurrentTemperature());
   });
 
+  $('#powersaving-on').click(function() {
+    thermostat.turnPowerSavingModeOn();
+    $('#power-saving-status').text('on')
+    thermostat.getCurrentTemperature(); // issue with this!!
+  })
+
+  $('#powersaving-off').click(function() {
+    thermostat.turnPowerSavingModeOff();
+    $('#power-saving-status').text('off')
+    thermostat.getCurrentTemperature();
+  })
+
+
   });
