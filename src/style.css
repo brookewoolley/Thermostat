@@ -9,3 +9,13 @@
 .high-usage {
   color: red;
 }
+
+body {
+  font-family: Helvetica;
+  text-align: center;
+  padding: 70px 0;
+}
+
+h2 {
+  font-size: : 200;
+}

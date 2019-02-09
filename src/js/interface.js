@@ -1,5 +1,10 @@
 $( document ).ready(function() {
   var thermostat = new Thermostat();
+  // 
+  // $.get('https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=3c18869758d249aede21772bcaad8491',
+  //   function(data)
+  //   {$('#current-temperature').text(data.main.temp);
+  // });
 
   $('#temp-up').click(function() { // event listener
     thermostat.up(); // update model
