@@ -19,3 +19,7 @@ body {
 h2 {
   font-size: : 200;
 }
+
+#current-city {
+  width: 150px;
+}
