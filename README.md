@@ -1,3 +1,9 @@
+Thermostat
+==========
+
+![alt text](https://github.com/brookewoolley/Thermostat/blob/master/Screen%20Shot%202019-02-24%20at%2021.11.09.png "UI for thermostat")
+
+
 Javascript project during week 5 of Makers to make a simple thermostat.
 
 - Javascript business logic test driven with Jasmine
