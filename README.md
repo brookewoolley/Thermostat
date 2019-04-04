@@ -1,6 +1,7 @@
 Thermostat
 ==========
 Javascript project during week 5 of Makers to make a simple thermostat.
+Deployed [here](http://bwthermostat.surge.sh/) using surge.
 
 - Javascript business logic test driven with Jasmine
 - jQuery and CSS interface (using bootswatch for CSS due to lack of time)
